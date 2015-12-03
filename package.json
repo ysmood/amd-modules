@@ -1,0 +1,29 @@
+{
+  "name": "amdpack",
+  "version": "0.0.1",
+  "description": "a tool to convert everything to amd modules",
+  "main": "lib/index.js",
+  "bin": {
+    "amd-modules": "lib/cli.js"
+  },
+  "scripts": {
+    "test": "no test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysmood/amd-modules.git"
+  },
+  "files": ["lib"],
+  "keywords": [
+    "amd"
+  ],
+  "author": "http://ysmood.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ysmood/amd-modules/issues"
+  },
+  "homepage": "https://github.com/ysmood/amd-modules#readme",
+  "dependencies": {
+    "nokit": "^0.16.10"
+  }
+}
